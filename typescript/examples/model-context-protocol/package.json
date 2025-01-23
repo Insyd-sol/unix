@@ -1,0 +1,11 @@
+{
+  "name": "model-context-protocol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@unix-sdk/core": "^1.0.0",
+    "@unix-sdk/protocol": "^1.0.0",
+    "@unix-sdk/types": "^1.0.0"
+  }
+}

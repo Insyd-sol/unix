@@ -1,0 +1,23 @@
+{
+    "name": "@unix-sdk/scripts",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "tsup",
+        "clean": "rm -rf dist",
+        "test": "vitest run --passWithNoTests"
+    },
+    "dependencies": {
+        "commander": "^13.0.0",
+        "fs-extra": "^11.2.0",
+        "glob": "^10.3.10"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^11.0.4",
+        "@types/node": "^22.7.4",
+        "tsup": "^8.0.1",
+        "typescript": "^5.3.3",
+        "vitest": "^1.1.0"
+    }
+}

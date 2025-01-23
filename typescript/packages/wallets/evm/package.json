@@ -1,0 +1,33 @@
+{
+    "name": "@unix-sdk/wallet-evm",
+    "version": "0.2.6",
+    "sideEffects": false,
+    "files": ["dist/**/*", "README.md", "package.json"],
+    "scripts": {
+        "build": "tsup",
+        "clean": "rm -rf dist",
+        "test": "vitest run --passWithNoTests"
+    },
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "dependencies": {
+        "@unix-sdk/core": "workspace:*",
+        "abitype": "^1.0.6",
+        "viem": "catalog:",
+        "zod": "catalog:"
+    },
+    "peerDependencies": {
+        "@unix-sdk/core": "workspace:*"
+    },
+    "homepage": "https://ohmyunix.dev",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/unix-sdk/unix.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/unix-sdk/unix/issues"
+    },
+    "keywords": ["ai", "agents", "web3"]
+}
