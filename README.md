@@ -3,7 +3,7 @@
 # UNIX 🖥️
 A powerful AI agent framework for blockchain interactions
 
-[Documentation](https://unix.dev) | [Examples](https://github.com/Insyd-sol/unix/tree/main/typescript/examples) | [API Reference](https://unix.dev/api)
+[Documentation](https://unix.dev) | [Examples](https://github.com/Insyd-sol/unix/tree/main/typescript/examples)
 
 </div>
 
@@ -85,5 +85,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 - 📚 [Documentation](https://unix.dev)
-- 💬 [Discord Community](https://discord.gg/Insyd-sol)
-- 🐦 [Twitter](https://twitter.com/unix_sdk)
+- 💬 [Telegram Community](https://t.me/unixonsol)
+- 🐦 [Twitter](https://x.com/unix_solana)
