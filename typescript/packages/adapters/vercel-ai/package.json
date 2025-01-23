@@ -1,5 +1,5 @@
 {
-    "name": "@unix-sdk/adapter-vercel-ai",
+    "name": "@Insyd-sol/adapter-vercel-ai",
     "version": "0.2.7",
     "sideEffects": false,
     "files": ["dist/**/*", "README.md", "package.json"],
@@ -12,11 +12,11 @@
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
     "dependencies": {
-        "@unix-sdk/core": "workspace:*",
+        "@Insyd-sol/core": "workspace:*",
         "ai": "catalog:"
     },
     "peerDependencies": {
-        "@unix-sdk/core": "workspace:*",
+        "@Insyd-sol/core": "workspace:*",
         "ai": "catalog:",
         "zod": "^3.0.0"
     },
@@ -26,11 +26,11 @@
     "homepage": "https://ohmyunix.dev",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/unix-sdk/unix.git"
+        "url": "git+https://github.com/Insyd-sol/unix.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/unix-sdk/unix/issues"
+        "url": "https://github.com/Insyd-sol/unix/issues"
     },
     "keywords": ["ai", "agents", "web3"]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@unix-sdk/example-vercel-ai",
+  "name": "@Insyd-sol/example-vercel-ai",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,8 +10,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@unix-sdk/core": "^0.1.0",
-    "@unix-sdk/wallet-viem": "^0.1.0",
+    "@Insyd-sol/core": "^0.1.0",
+    "@Insyd-sol/wallet-viem": "^0.1.0",
     "@vercel/analytics": "^1.0.2",
     "ai": "^2.2.31",
     "next": "^14.0.4",

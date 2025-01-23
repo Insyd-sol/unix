@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@unix-sdk/core": "^1.0.0",
-    "@unix-sdk/protocol": "^1.0.0",
-    "@unix-sdk/types": "^1.0.0"
+    "@Insyd-sol/core": "^1.0.0",
+    "@Insyd-sol/protocol": "^1.0.0",
+    "@Insyd-sol/types": "^1.0.0"
   }
 }

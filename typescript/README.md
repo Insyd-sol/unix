@@ -13,13 +13,13 @@ The TypeScript implementation of my UNIX framework for blockchain-enabled AI age
 
 ```bash
 # Install the core package
-npm install @unix-sdk/core
+npm install @Insyd-sol/core
 
 # Install wallet adapter (e.g., for EVM chains)
-npm install @unix-sdk/wallet-viem
+npm install @Insyd-sol/wallet-viem
 
 # Optional: Install plugins you need
-npm install @unix-sdk/plugin-erc20
+npm install @Insyd-sol/plugin-erc20
 ```
 
 ## Development

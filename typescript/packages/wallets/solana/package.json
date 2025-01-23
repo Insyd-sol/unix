@@ -1,5 +1,5 @@
 {
-    "name": "@unix-sdk/wallet-solana",
+    "name": "@Insyd-sol/wallet-solana",
     "version": "0.2.12",
     "sideEffects": false,
     "files": ["dist/**/*", "README.md", "package.json"],
@@ -12,24 +12,24 @@
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
     "dependencies": {
-        "@unix-sdk/core": "workspace:*",
+        "@Insyd-sol/core": "workspace:*",
         "@solana/web3.js": "catalog:",
         "tweetnacl": "^1.0.3",
         "viem": "catalog:",
         "zod": "catalog:"
     },
     "peerDependencies": {
-        "@unix-sdk/core": "workspace:*",
+        "@Insyd-sol/core": "workspace:*",
         "@solana/web3.js": "catalog:"
     },
     "homepage": "https://ohmyunix.dev",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/unix-sdk/unix.git"
+        "url": "git+https://github.com/Insyd-sol/unix.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/unix-sdk/unix/issues"
+        "url": "https://github.com/Insyd-sol/unix/issues"
     },
     "keywords": ["ai", "agents", "web3"]
 }

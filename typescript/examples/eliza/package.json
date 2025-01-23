@@ -1,5 +1,5 @@
 {
-  "name": "@unix-sdk/example-eliza",
+  "name": "@Insyd-sol/example-eliza",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,8 @@
     "test": "vitest run --passWithNoTests"
   },
   "dependencies": {
-    "@unix-sdk/core": "^0.1.0",
-    "@unix-sdk/wallet-viem": "^0.1.0",
+    "@Insyd-sol/core": "^0.1.0",
+    "@Insyd-sol/wallet-viem": "^0.1.0",
     "eliza-js": "^2.1.0",
     "viem": "^1.19.11"
   },

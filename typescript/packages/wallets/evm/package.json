@@ -1,5 +1,5 @@
 {
-    "name": "@unix-sdk/wallet-evm",
+    "name": "@Insyd-sol/wallet-evm",
     "version": "0.2.6",
     "sideEffects": false,
     "files": ["dist/**/*", "README.md", "package.json"],
@@ -12,22 +12,22 @@
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
     "dependencies": {
-        "@unix-sdk/core": "workspace:*",
+        "@Insyd-sol/core": "workspace:*",
         "abitype": "^1.0.6",
         "viem": "catalog:",
         "zod": "catalog:"
     },
     "peerDependencies": {
-        "@unix-sdk/core": "workspace:*"
+        "@Insyd-sol/core": "workspace:*"
     },
     "homepage": "https://ohmyunix.dev",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/unix-sdk/unix.git"
+        "url": "git+https://github.com/Insyd-sol/unix.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/unix-sdk/unix/issues"
+        "url": "https://github.com/Insyd-sol/unix/issues"
     },
     "keywords": ["ai", "agents", "web3"]
 }

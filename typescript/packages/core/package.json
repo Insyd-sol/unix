@@ -1,5 +1,5 @@
 {
-    "name": "@unix-sdk/core",
+    "name": "@Insyd-sol/core",
     "version": "0.4.6",
     "sideEffects": false,
     "files": ["dist/**/*", "README.md", "package.json"],
@@ -23,11 +23,11 @@
     "homepage": "https://unixdev.dev",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/unix-sdk/unix.git"
+        "url": "git+https://github.com/Insyd-sol/unix.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/unix-sdk/unix/issues"
+        "url": "https://github.com/Insyd-sol/unix/issues"
     },
     "keywords": ["ai", "agents", "web3"]
 }

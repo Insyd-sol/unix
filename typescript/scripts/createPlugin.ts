@@ -25,11 +25,11 @@ function validatePluginName(name: string): boolean {
 function getWalletClientImport(type: PluginOptions["type"]): string {
     switch (type) {
         case "evm":
-            return 'import { EVMWalletClient } from "@unix-sdk/wallet-evm";';
+            return 'import { EVMWalletClient } from "@Insyd-sol/wallet-evm";';
         case "solana":
-            return 'import { SolanaWalletClient } from "@unix-sdk/wallet-solana";';
+            return 'import { SolanaWalletClient } from "@Insyd-sol/wallet-solana";';
         case "any":
-            return 'import { WalletClientBase } from "@unix-sdk/core";';
+            return 'import { WalletClientBase } from "@Insyd-sol/core";';
     }
 }
 
@@ -48,16 +48,16 @@ function getWalletClientType(type: PluginOptions["type"]): string {
 // Get dependencies based on plugin type
 function getDependencies(type: PluginOptions["type"]): Record<string, string> {
     const deps: Record<string, string> = {
-        "@unix-sdk/core": "workspace:*",
+        "@Insyd-sol/core": "workspace:*",
         zod: "catalog:",
     };
 
     switch (type) {
         case "evm":
-            deps["@unix-sdk/wallet-evm"] = "workspace:*";
+            deps["@Insyd-sol/wallet-evm"] = "workspace:*";
             break;
         case "solana":
-            deps["@unix-sdk/wallet-solana"] = "workspace:*";
+            deps["@Insyd-sol/wallet-solana"] = "workspace:*";
             break;
     }
 
@@ -70,7 +70,7 @@ function createPackageJson(options: PluginOptions): string {
     const dependencies = getDependencies(type);
 
     const packageJson = {
-        name: `@unix-sdk/plugin-${name}`,
+        name: `@Insyd-sol/plugin-${name}`,
         version: "0.1.0",
         files: ["dist/**/*", "README.md", "package.json"],
         scripts: {
@@ -85,16 +85,16 @@ function createPackageJson(options: PluginOptions): string {
         homepage: "https://unix.dev",
         repository: {
             type: "git",
-            url: "git+https://github.com/unix-sdk/unix.git",
+            url: "git+https://github.com/Insyd-sol/unix.git",
         },
         license: "MIT",
         bugs: {
-            url: "https://github.com/unix-sdk/unix/issues",
+            url: "https://github.com/Insyd-sol/unix/issues",
         },
         keywords: ["ai", "agents", "web3"],
         dependencies,
         peerDependencies: {
-            "@unix-sdk/core": "workspace:*",
+            "@Insyd-sol/core": "workspace:*",
         },
     };
     return JSON.stringify(packageJson, null, 4);
@@ -102,7 +102,7 @@ function createPackageJson(options: PluginOptions): string {
 
 // Create parameters.ts content
 function createParametersContent(): string {
-    return `import { createToolParameters } from "@unix-sdk/core";
+    return `import { createToolParameters } from "@Insyd-sol/core";
 import { z } from "zod";
 
 export class ExampleParameters extends createToolParameters(
@@ -129,7 +129,7 @@ function createServiceContent(options: PluginOptions): string {
     const className = kebabToPascalCase(name);
     const functionName = name.replace(/-/g, "_");
 
-    return `import { Tool } from "@unix-sdk/core";
+    return `import { Tool } from "@Insyd-sol/core";
 ${walletClientImport}
 import { ExampleParameters } from "./parameters";
 
@@ -152,7 +152,7 @@ function createPluginContent(options: PluginOptions): string {
     const className = kebabToPascalCase(name);
     const functionName = name.replace(/-/g, "");
 
-    return `import { PluginBase } from "@unix-sdk/core";
+    return `import { PluginBase } from "@Insyd-sol/core";
 import { ${className}Service } from "./${name}.service";
 
 export class ${className}Plugin extends PluginBase {

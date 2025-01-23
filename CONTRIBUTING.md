@@ -75,7 +75,7 @@ pnpm create-plugin -n your-plugin-name -t evm
 ## Need Help?
 
 - Check the [documentation](https://unix.dev)
-- Join our [Discord](https://discord.gg/unix-sdk)
+- Join our [Discord](https://discord.gg/Insyd-sol)
 - Open an issue
 
 ## License

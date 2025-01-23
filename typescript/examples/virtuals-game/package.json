@@ -1,5 +1,5 @@
 {
-  "name": "@unix-sdk/example-virtuals-game",
+  "name": "@Insyd-sol/example-virtuals-game",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,8 +10,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@unix-sdk/core": "^0.1.0",
-    "@unix-sdk/wallet-viem": "^0.1.0",
+    "@Insyd-sol/core": "^0.1.0",
+    "@Insyd-sol/wallet-viem": "^0.1.0",
     "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

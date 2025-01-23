@@ -1,5 +1,5 @@
 {
-    "name": "@unix-sdk/plugin-erc20",
+    "name": "@Insyd-sol/plugin-erc20",
     "version": "0.2.8",
     "files": ["dist/**/*", "README.md", "package.json"],
     "scripts": {
@@ -12,23 +12,23 @@
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
     "dependencies": {
-        "@unix-sdk/core": "workspace:*",
-        "@unix-sdk/wallet-evm": "workspace:*",
+        "@Insyd-sol/core": "workspace:*",
+        "@Insyd-sol/wallet-evm": "workspace:*",
         "viem": "catalog:",
         "zod": "catalog:"
     },
     "peerDependencies": {
-        "@unix-sdk/core": "workspace:*",
+        "@Insyd-sol/core": "workspace:*",
         "viem": "catalog:"
     },
     "homepage": "https://ohmyunix.dev",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/unix-sdk/unix.git"
+        "url": "git+https://github.com/Insyd-sol/unix.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/unix-sdk/unix/issues"
+        "url": "https://github.com/Insyd-sol/unix/issues"
     },
     "keywords": ["ai", "agents", "web3"]
 }
