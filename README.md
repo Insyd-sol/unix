@@ -3,7 +3,7 @@
 # UNIX 🖥️
 A powerful AI agent framework for blockchain interactions
 
-[Documentation](https://unix.dev) | [Examples](https://github.com/Insyd-sol/unix/tree/main/typescript/examples)
+[Documentation](https://unixsol.xyz/) | [Examples](https://github.com/Insyd-sol/unix/tree/main/typescript/examples)
 
 </div>
 
