@@ -3,7 +3,7 @@
 # UNIX 🖥️
 A powerful AI agent framework for blockchain interactions
 
-[Documentation](https://unix.dev) | [Examples](https://github.com/unix-sdk/unix/tree/main/typescript/examples) | [API Reference](https://unix.dev/api)
+[Documentation](https://unix.dev) | [Examples](https://github.com/Insyd-sol/unix/tree/main/typescript/examples) | [API Reference](https://unix.dev/api)
 
 </div>
 
@@ -61,17 +61,17 @@ const result = await generateText({
 
 ```bash
 # Using npm
-npm install @unix-sdk/core
+npm install @Insyd-sol/core
 
 # Using pnpm
-pnpm add @unix-sdk/core
+pnpm add @Insyd-sol/core
 
 # Using yarn
-yarn add @unix-sdk/core
+yarn add @Insyd-sol/core
 ```
 
 ## Examples
-Check out the [examples directory](https://github.com/unix-sdk/unix/tree/main/typescript/examples) for complete working examples, including:
+Check out the [examples directory](https://github.com/Insyd-sol/unix/tree/main/typescript/examples) for complete working examples, including:
 - Basic token transfers
 - DeFi interactions
 - NFT operations
@@ -85,5 +85,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 - 📚 [Documentation](https://unix.dev)
-- 💬 [Discord Community](https://discord.gg/unix-sdk)
+- 💬 [Discord Community](https://discord.gg/Insyd-sol)
 - 🐦 [Twitter](https://twitter.com/unix_sdk)
